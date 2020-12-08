@@ -1,11 +1,16 @@
 import react from "react";
+import Header from './Header'
+import Home from './Home'
 
 import './App.css';
 
 function App() {
   return (
     <div className="app">
-      <h1>amazon-clone</h1>
+      <Header />
+      <Home />
+      
+      {/*home*/}
     </div>
   );
 }
