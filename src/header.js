@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import "./Header.css"
 import SearchIcon from "@material-ui/icons/Search";
@@ -18,8 +19,8 @@ function Header() {
                     <span className="headerOptionLineTwp">SignIn</span>
                 </div>
                 <div className="headerOption">
-                    <span className="headerOptionLineOne">Returns & </span>
-                    <span className="headerOptionLineTwo">Orders</span>
+                    <span className="headerOptionLineOne">Returns</span>
+                    <span className="headerOptionLineTwo">& Orders</span>
                 </div>
                 <div className="headerOption">
                     <span className="headerOptionLineOne">Try</span>
